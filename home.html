@@ -1,0 +1,599 @@
+<html>
+
+<head>
+    <title>home</title>
+    <!-- yeh logo ka -->
+    <link rel="icon" href="logos/Screenshot (3).png" type="image/icon type">
+    <!-- yeh icon ka -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+
+        }
+
+
+        @media screen and (min-width:540px) {
+            .row {
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+                padding: 60px;
+                background-image: url(images/background12.jpeg);
+
+            }
+
+        }
+
+        .roww {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            padding: 60px;
+            background-image: url(images/background12.jpeg);
+
+
+        }
+
+        .rowwork {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            padding: 60px;
+            background-image: url(images/background12.jpeg);
+
+        }
+
+
+
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            gap: 50px;
+
+
+
+        }
+
+        .rodiv {
+
+            display: flex;
+            justify-content: space-around;
+            background-image: url(images/background7.jpeg);
+
+
+        }
+
+        .col:hover {
+            background-color: lavender;
+        }
+
+        .col {
+            overflow-y: hidden;
+            text-align: center;
+        }
+
+        .col img:hover {}
+
+
+        h2 {
+            font-size: 20px;
+            padding: 9px;
+        }
+
+        .harry {
+
+            background-image: url(images/whatsapp5.jpeg);
+            background-size: cover;
+            opacity: 0.9;
+            padding: 100px;
+            font-size: 24px;
+            text-align: center;
+            color: black;
+            font-weight: 1000;
+            margin: auto;
+        }
+
+        .img {
+            width: 100%;
+            height: 250px;
+            border-radius: 78%;
+
+        }
+
+        .coll.no-hover {}
+
+        .colsta.no-hover {}
+
+        .coltag.no-hover.no-hover {}
+
+
+        .para {
+            text-align: center;
+            font-size: 22;
+            background-image: url(images/background4.jpeg);
+        }
+
+        .checked {
+            color: #ffd000;
+            gap: 5px;
+
+        }
+
+        /* span {
+            width: 50px;
+            height: 30;
+            padding: 1px;
+            color: white;
+            font-weight: 900;
+            text-align: left;
+            background-color: green;
+            
+        } */
+
+        header {
+            position: sticky !important;
+            top: 0px !important;
+            z-index: 99999;
+        }
+
+        .title {
+            text-align: center;
+            overflow-y: hidden;
+            background-image: url(images/background4.jpeg);
+            color: navy;
+            font-weight: 700;
+        }
+
+        .titlein {
+            text-align: center;
+            font-weight: 750;
+            background-image: url(images/background12.jpeg);
+            color: dimgrey;
+            overflow-y: hidden;
+        }
+
+        div .listdiv {
+            /* background-color:lightblue; */
+            width: 900px;
+            margin: auto;
+            text-align: right;
+        }
+
+        .harry .outer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .roww .coll h1 {
+            font-weight: 900;
+
+        }
+
+        .roww .coll i {
+            font-weight: 900;
+            color: navy;
+
+        }
+
+        .roww .colla {
+            background-image: url(images/team1.jpeg);
+            background-size: cover;
+            animation-direction: alternate;
+            width: 150%;
+            height: 750px;
+            animation-name: animal;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            margin: auto;
+
+        }
+
+
+        @keyframes animal {
+            0% {
+                background-image: url(images/team2.jpeg);
+            }
+
+            50% {
+                background-image: url(images/team4.avif);
+            }
+
+            100% {
+                background-image: url(images/team1.jpeg);
+            }
+        }
+
+        .mainimg {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+
+
+        }
+
+        .passg {
+            font-weight: 700;
+            font-size: 30;
+            color: #198450;
+            background-color: #90EE90;
+            text-align: center;
+            border-radius: 13%;
+
+        }
+
+        .passp {
+            font-weight: 700;
+            font-size: 30;
+            color: #740074;
+            background-color: #EDD6FD;
+            text-align: center;
+            border-radius: 13%;
+
+
+        }
+
+        .passv {
+            font-weight: 700;
+            font-size: 30;
+            color: #B90712;
+            background-color: #F84D66;
+            text-align: center;
+            border-radius: 13%;
+        }
+
+        .passy {
+            font-weight: 700;
+            font-size: 30;
+            color: #FFD500;
+            background-color: #FFF394;
+            text-align: center;
+            border-radius: 13%;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            border-radius: 90%;
+        }
+
+        .fa-facebook {
+            background: #1877F2;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #FFD800;
+
+        }
+
+        .fa-twitter {
+            background: red;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #DD2A7B;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #32CD32;
+            color: white;
+        }
+
+        .form_div {
+
+            width: 450px;
+            padding: 80px;
+            margin: auto;
+        }
+
+        input {
+            width: 90%;
+            height: 30px;
+        }
+
+        .formcol {
+            text-align: center;
+
+        }
+
+        .formpara {
+            font-weight: 750;
+            font-size: 35;
+            color: navy;
+        }
+
+        .headi {
+            font-weight: 750;
+            font-size: 35;
+
+            color: navy;
+        }
+
+        .rowcolor {
+            background-image: url(images/footbackground1.jpeg);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .word {
+            font-size: 35;
+            font-weight: 850;
+        }
+
+        .paragraph {
+            font-size: 22;
+            font-weight: 600;
+        }
+
+        .fix {
+            position: fixed;
+            right: 25px;
+            bottom: 90px;
+        }
+
+
+        .center {
+            color: navy;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-y: hidden;
+            height: 50px;
+            border: 3px solid white;
+            width: 100%;
+            background-image: url(images/background12.jpeg);
+
+        }
+
+        .workhe {
+            overflow-y: hidden;
+        }
+
+        .navbar-collapse {
+            background-color: red;
+            border-radius: 32px;
+        }
+
+        .navbar-nav {
+            color: white;
+        }
+
+        .nav-item {
+            color: yellow;
+        }
+    </style>
+</head>
+
+
+<!-- yeh nav bar  -->
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light ">
+                <img src="logo/Screenshot (3).png" width="80px" alt="">
+                <button class="navbar-toggler" data-target="#navbr" data-toggle="collapse"> <span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbr">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><b><a class="nav-link" href="home.html">Home</a></b></li>
+                        <li class="nav-item"><b><a class="nav-link" href="about.html">About</a></b></li>
+                        <li class="nav-item"><b><a class="nav-link" href="contact.html">Contact</a></b></li>
+                        <li class="nav-item"><b><a class="nav-link" href="experience.html">Experience</a></b></li>
+                        <li class="nav-item"><b><a class="nav-link" href="why.html">Why Us</a></b></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="harry">
+            <div class="outer">
+                <div>&nbsp;
+                    &nbsp;
+                </div>
+                <div class="listdiv">
+                    <p class="word"><i>As much as we may not want to think about it, celebrating the anniversary of the
+                            death of a
+                            loved
+                            one can be an emotionally difficult and overwhelming experience. Grieving is a personal
+                            journey
+                            that should never be rushed, which means that honoring and memorializing anniversaries are
+                            vital
+                            parts of the process.
+                        </i></p>
+                </div>
+            </div>
+
+
+    </main>
+    <!-- just for contact logo -->
+
+    <a href=""><img class=" fix" src="logo/whatsapp.ki.gif" alt=""></a>
+
+
+    <!-- !-- yeh niche wale page ko dikha rha h palaces ka -->
+    <br><br>
+    <h1 class="title">Visiting The Special Place On Their Death Anniversary Is A Beautiful Way To Feel
+        Close To Them And Remember Their Happy Memories</h1><br>
+    <p class="para">Those We Love And Lose Are Always Connected By Heartstrings Into Infinity.......</p>
+    <div class="row">
+        <div class="col"><img class="img" src="images/photod3.jpg" alt="">
+            <h2>EVER AFTER EVENTS</h2>
+            <p class="paragraph">Shift Admont<br>Austria<br>Closes 9 pm<br>Price: from 25 Lac</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="col"><img class="img" src="images/photod4.jpg" alt="">
+            <h2>LUCKY CHARM EVENTS</h2>
+            <p class="paragraph">Royalcore Castle<br>Portugal<br>Closes 11 pm<br>Price: from 23 Lac</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-full checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="col"><img class="img" src="images/photod5.jpg" alt="">
+            <h2>UNITED HEARTS EVENTS</h2>
+            <p class="paragraph">Hall of Mirrors<br>France<br>Closes 8 pm<br>Price: from 30 Lac</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="col"><img class="img" src="images/photod6.jpg" alt="">
+            <h2>CRESCENT MOON EVENTS</h2>
+            <p class="paragraph">The Hill Garden and Pergola<br>England<br>Closes 12 pm<br>Price: from
+                22 Lac </p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-full checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+
+
+    </div><br>
+
+    <button class="center"><a href="places.html">
+            <h3><b>View More</b></h3>
+        </a></button>
+
+
+    <!-- yeh basic photo hai  -->
+
+    <div class="roww">
+        <div class="colla">
+        </div>
+        <div>&nbsp;
+            &nbsp;&nbsp;
+        </div>
+
+        <div class="coll">
+            <h1 class="workhe"><em>Over 10 years,We are making<i> Others Cheerful</i><br> By our team</em></h1>
+            <br>
+            <h2> <i class="fa fa-check" p> &nbsp;Lifetime Access</p></i></h2>
+            <h2> <i class="fa fa-check" p> &nbsp;Best Organising Skills</p></i></h2>
+            <h2> <i class="fa fa-check" p> &nbsp;Best in Budgeting</p></i></h2>
+            <h2> <i class="fa fa-check" p> &nbsp;Punctuality</p></i></h2>
+            <h2> <i class="fa fa-check" p> &nbsp;Calm Under Pressure</p></i></h2>
+        </div>
+    </div>
+
+    <!-- staff ki photos -->
+
+    <h1 class="titlein">The strength of the team is each individual member.The strength of each member is the team.
+    </h1>
+    <div class="rowwork">
+        <div class="colsta"><img class="img" src="images/girl6.jpeg" alt=""><br><br>
+            <p class="paragraph"><b>EMILY KELLEHER</b><br><br><u>Work Experience:</u> 3 years<br><u>Soft Skills:</u>
+                Respectfulness and Ambitious<br><u>Language:</u> English and Italian</p>
+
+        </div>
+        <div class="colsta"><img class="img" src="images/girl2.jpeg" alt=""><br><br>
+            <p class="paragraph"><b>VINCE LOMBARDI</b><br><br><u>Work Experience:</u> Past 5 years <br><u>Soft
+                    Skills:</u> Motivated and Reliability<br><u>Language:</u> English,French and Spanish</p>
+
+
+        </div>
+        <div class="colsta"><img class="img" src="images/boy3.jpeg" alt=""><br><br>
+            <p class="paragraph"><b>PHIL JACKSON</b><br><br><u>Work Experience:</u> Past 1 years<br><u>Soft Skills:</u>
+                Team-building and Good Listener<br><u>Language:</u> English and French</p>
+
+
+        </div>
+        <div class="colsta"><img class="img" src="images/girl7.jpeg" alt=""><br><br>
+            <p class="paragraph"><b>MATTIE STEPANEK</b><br><br><u>Work Experience:</u> Past 6 year<br><u>Soft
+                    Skills:</u> Confidence and Creative<br><u>Language:</u> English and Afrikaans</p>
+        </div>
+    </div>
+    <img class="mainimg" src="images/mainpic4.jpeg">
+
+
+    <!-- <img class="mainimg" src="images/mainpic3.jpeg">  -->
+    <!-- yeh last div hai -->
+
+
+    <div class="rodiv">
+        <div class="coldiv">
+            <p class="passg">3.9K<br>Part of Our Family</p>
+        </div>
+
+        <div class="coldiv">
+            <p class="passp">5.6K<br>Events Completed</p>
+        </div>
+
+        <div class="coldiv">
+            <p class="passv">100%<br>Satisfaction Rate</p>
+        </div>
+
+        <div class="coldiv">
+            <p class="passy">350+<br>Top Event Planners</p>
+        </div>
+    </div><br><br>
+
+    <!-- yaha se footer hai -->
+
+    <footer>
+        <section>
+            <div class="rowcolor">
+                <div class="coltag">
+                    <h2 class="headi">Contact Us</h2><br>
+                    <!-- naam likho management ka -->
+                    <p>Tel:+91 7478392903,+1 5462782932<br><br>Email:<br><br><br><i class="fa fa-facebook"></i><i
+                            class="fa fa-youtube"></i><i class="fa fa-twitter"></i><i class="fa fa-instagram"></i><i
+                            class="fa fa-linkedin"></i></span><br><br>
+                        Copyright @ 2012 .All Rightd Reserved</p>
+                </div>
+                <div class="coltag">
+
+                    <h2 class="headi">Important Links</h2><br>
+                    <p>ONLINE APPOINTMENT<br><br>BUSINESS CARD<br><br>PRIVATE MANAGEMENT</p>
+                </div>
+                <div class="formcol">
+                    <p class="formpara">Enquire Now</p>
+                    <form action="">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Phone</label>
+                        <input type="text" id="pname" name="pname"><br>
+                        <label for="fname">Email</label>
+                        <input type="text" id="ename" name="ename"><br>
+                        <label for="lname">Message</label>
+                        <input type="text" id="mname" name="mname"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+</html>
+
+</main>
+</header>
