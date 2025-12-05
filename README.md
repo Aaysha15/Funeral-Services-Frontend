@@ -21,12 +21,18 @@ This project is a multi-page static website that helps families and friends plan
 
 ## Project Structure
 .
-├── home.html # Landing page with overview, team, and key stats
-├── about.html # Explanation of death anniversaries and coping guidance
-├── why.html # Services, values, and team characteristics
-├── places.html # List of event locations and approximate pricing
+
+├── home.html       # Landing page with overview, team, and key stats
+
+├── about.html      # Explanation of death anniversaries and coping guidance
+
+├── why.html        # Services, values, and team characteristics
+
+├── places.html     # List of event locations and approximate pricing
+
 ├── experience.html # User experiences and testimonials
-└── contact.html # Contact information and enquiry section
+
+└── contact.html    # Contact information and enquiry section
 
 
 ## How to Run Locally
@@ -41,3 +47,4 @@ This project is a multi-page static website that helps families and friends plan
 - Apply a consistent CSS stylesheet for typography, colors, and layout.  
 - Make the site mobile-responsive using media queries or a CSS framework.  
 - Integrate a backend or form service (e.g., Formspree) to handle real contact form submissions.
+
